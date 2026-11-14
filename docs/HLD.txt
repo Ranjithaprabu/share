@@ -1,0 +1,47 @@
+
+# Connectly 2.0 — High-Level Design
+
+## 1. Project Overview
+
+Connectly is a real-time messaging application
+that allows registered users to communicate
+with each other.
+
+## 2. Technology Stack
+
+- Frontend: React + Vite
+- State Management: Redux Toolkit
+- Backend: Node.js + Express.js
+- Database: MongoDB + Mongoose
+- Real-time Communication: Socket.IO
+- Authentication: JWT + bcrypt
+- Containerization: Docker
+- CI/CD: GitHub Actions
+
+## 3. Main Components
+
+### Frontend
+Responsible for user interface and user interactions.
+
+### Backend
+Responsible for APIs, authentication,
+authorization and business logic.
+
+### Database
+MongoDB stores users, conversations and messages.
+
+### Socket Layer
+Socket.IO handles real-time communication.
+
+## 4. Communication
+
+- REST APIs handle standard client-server requests.
+- Socket.IO handles real-time events.
+- MongoDB persists application data.
+
+## 5. Security
+
+- Passwords are stored as hashes.
+- JWT authentication protects private APIs.
+- Authorization checks restrict access to resources.
+- Input validation is performed on the backend.

@@ -1,4 +1,4 @@
-# Connectly 
+# Connectly 2.0
 
 A full-stack real-time messaging application built with the MERN stack, enabling users to communicate through direct and group conversations.
 
